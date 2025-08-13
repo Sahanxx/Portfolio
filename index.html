@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.H. Sahan Anjana - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>SA</span>
+            </div>
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item active" data-section="profile">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </li>
+            <li class="nav-item" data-section="about">
+                <i class="fas fa-info-circle"></i>
+                <span>About</span>
+            </li>
+            <li class="nav-item" data-section="skills">
+                <i class="fas fa-code"></i>
+                <span>Skills</span>
+            </li>
+            <li class="nav-item" data-section="education">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Education</span>
+            </li>
+            <li class="nav-item" data-section="projects">
+                <i class="fas fa-folder-open"></i>
+                <span>Projects</span>
+            </li>
+            <li class="nav-item" data-section="contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sahan-anjana-b2a90036b" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sahanxx" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:sahananjana168@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Profile Section -->
+        <section id="profile" class="section active">
+            <div class="profile-header">
+                <div class="profile-image">
+                    <img src="Image/dp.jpeg" alt="Sahan Anjana" id="profile-img">
+                    <div class="profile-status">
+                        <div class="status-dot"></div>
+                        <span>Available for work</span>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">I.H. Sahan Anjana</h1>
+                    <p class="profile-title">Web Developer</p>
+                    <p class="profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Anuradhapura, Sri Lanka
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile-summary">
+                <p>Dedicated and skilled web developer with hands-on experience in creating responsive and user-friendly
+                    websites using PHP, HTML, CSS, JavaScript, and SQL. Passionate about building real-world
+                    applications and thriving in collaborative environments.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years Learning</div>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-icons">
+                    <div class="tech-item" title="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="tech-item" title="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="tech-item" title="JavaScript">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item" title="PHP">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-item" title="MySQL">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated and skilled web developer currently pursuing my Higher National Diploma in
+                        Information Technology (HNDIT) at Sri Lanka Institute of Advanced Technological Education
+                        (SLIATE). With a strong foundation in both front-end and back-end development, I have developed
+                        expertise in creating responsive and user-friendly websites.</p>
+
+                    <p>My journey in web development has been driven by a passion for building real-world applications
+                        that solve practical problems. I thrive in collaborative, team-based environments that encourage
+                        growth and innovation, and I'm always eager to learn new technologies and improve my skills.</p>
+
+                    <p>As a quick learner with strong problem-solving abilities, I enjoy tackling complex challenges and
+                        finding elegant solutions. My experience spans across various technologies including PHP, HTML,
+                        CSS, JavaScript, and MySQL, allowing me to work on full-stack development projects.</p>
+                </div>
+
+                <div class="about-highlights">
+                    <h3>What I Bring</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Strong foundation in web development</li>
+                        <li><i class="fas fa-check"></i> Experience with full-stack development</li>
+                        <li><i class="fas fa-check"></i> Passion for responsive design</li>
+                        <li><i class="fas fa-check"></i> Team collaboration skills</li>
+                        <li><i class="fas fa-check"></i> Problem-solving mindset</li>
+                        <li><i class="fas fa-check"></i> Continuous learning approach</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Database & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Selenium</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills">
+                        <span class="soft-skill-tag">Team Collaboration</span>
+                        <span class="soft-skill-tag">Problem Solving</span>
+                        <span class="soft-skill-tag">Debugging</span>
+                        <span class="soft-skill-tag">Quick Learning</span>
+                        <span class="soft-skill-tag">Communication</span>
+                        <span class="soft-skill-tag">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Higher National Diploma in Information Technology</h3>
+                            <span class="timeline-date">2023 - 2025 (Expected)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Sri Lanka Institute of Advanced Technological Education (SLIATE)</p>
+                            <p class="description">Comprehensive program covering both front-end and back-end
+                                development, database management, software engineering principles, and modern web
+                                technologies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>G.C.E. Advanced Level - Technology Stream</h3>
+                            <span class="timeline-date">2021</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">A/Walisinghe Harischandra College, Anuradhapura</p>
+                            <p class="description">Specialized in Computer Science and Software (CSS) stream, building
+                                foundational knowledge in programming and computer systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/ins.png" alt="Institute Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sahanxx/Institute-Management-system" class="project-link"
+                                    title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Institute Management System</h3>
+                        <p>A comprehensive web-based system for managing administrative tasks including user
+                            authentication, course information display, and timetable management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/food.png" alt="Food Ordering System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sahanxx/Food-Ordering-System" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food Ordering System</h3>
+                        <p>A complete food ordering platform allowing users to browse menu items, manage cart, place
+                            orders, and handle room bookings for hospitality services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/lms.png" alt="E-Learning Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sahanxx/E-Learning-Platform-with-Automated-Quiz-System" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Learning Platform with AI Chatbot</h3>
+                        <p>Full-featured e-learning system with secure authentication, automated quiz system, and
+                            AI-powered chatbot using DeepSeek model via OpenRouter API.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">AI API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd
+                        like to discuss a project or just say hello!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:sahananjana168@gmail.com">sahananjana168@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+94771378459">+94 77 137 8459</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Anuradhapura, Sri Lanka</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
